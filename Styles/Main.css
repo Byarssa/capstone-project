@@ -1,0 +1,25 @@
+﻿* {
+    font-family: 'Franklin Gothic';
+    background-color: white;
+}
+body {
+    width: 960px;
+}
+
+#header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.Logo {
+    height: 100px;
+    width: 100px;
+}
+
+#footer {
+    text-align: center;
+}

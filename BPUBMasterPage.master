@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BPUBMasterPage.master.cs" Inherits="BPUBMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Styles/Main.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+        <div id="header">
+            <h1><img class="Logo" src="Images/BPUBLogo.png" />Better Prices for Used Books</h1>
+        </div>
+    </asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="footer">
+        <asp:ContentPlaceHolder ID="FooterPlaceHolder" runat="server">
+            &#169; Better Prices for Used Books
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
